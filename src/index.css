@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand: 221 83% 53%;
+    --brand-light: 213 94% 85%;
+    --bg: 0 0% 100%;
+    --surface: 0 0% 98%;
+    --on-surface: 220 13% 19%;
+    --success: 142 76% 36%;
+    --error: 0 84% 60%;
+    --transition-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .dark {
+    --brand: 217 91% 60%;
+    --brand-light: 213 94% 75%;
+    --bg: 222 47% 11%;
+    --surface: 223 47% 14%;
+    --on-surface: 210 40% 98%;
+    --success: 142 72% 46%;
+    --error: 0 74% 65%;
+  }
+}
+
+/* Scrollbar styles */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: hsl(223 47% 11%);
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: hsl(223 47% 22%);
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: hsl(223 47% 28%);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.dark .no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.dark .no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .sidebar-link {
+    @apply flex items-center gap-3 p-3 rounded-lg hover:bg-brand-light/20 transition-all duration-200 font-medium;
+  }
+
+  .sidebar-link.active {
+    @apply bg-brand-light/30 text-brand-600;
+  }
+
+  .card {
+    @apply bg-white dark:bg-surface rounded-2xl shadow-md p-6;
+  }
+
+  .btn-primary {
+    @apply bg-brand-600 hover:bg-brand-700 text-white rounded-lg px-4 py-2 font-medium transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 rounded-lg px-4 py-2 font-medium transition-colors;
+  }
+
+  .btn-ghost {
+    @apply hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg px-3 py-1.5 font-medium transition-colors;
+  }
+
+  .input {
+    @apply w-full border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-2 
+    focus:outline-none focus:ring-2 focus:ring-brand-500 dark:bg-gray-800 transition-all;
+  }
+
+  .status-pill {
+    @apply px-3 py-1 text-xs font-semibold rounded-full;
+  }
+
+  /* Status pill colors */
+
+  .status-draft {
+    @apply bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-300;
+  }
+
+
+  .status-review {
+    @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200;
+  }
+
+
+  .status-published {
+    @apply bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200;
+  }
+
+  /* Tag styles */
+  .tag-pill {
+    @apply px-2 py-1 bg-brand-100 dark:bg-brand-900 rounded-full text-xs;
+    @apply text-brand-800 dark:text-gray-200;
+  }
+
+  /* Button styles */
+  .button-selected {
+    @apply border-brand-600 bg-brand-50 dark:bg-brand-900;
+    @apply text-brand-800 dark:text-gray-200;
+  }
+}
+
+/* Animation classes */
+.fade-in-up {
+  animation: fadeInUp 0.5s var(--transition-ease) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pulse {
+  animation: pulse 2s var(--transition-ease) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Tooltip styles */
+.tooltip {
+  @apply invisible absolute bg-gray-900 text-white text-xs rounded-md py-1 px-2 -translate-y-full
+  opacity-0 transition-all duration-300 before:content-[''] before:absolute before:left-1/2 before:-ml-1
+  before:bottom-0 before:w-2 before:h-2 before:bg-gray-900 before:transform before:rotate-45 before:translate-y-1/2;
+}
+
+.tooltip-container:hover .tooltip {
+  @apply visible opacity-100;
+}
+
+/* Prose styles */
+.prose {
+  @apply text-gray-800 dark:text-gray-100;
+}
+
+.prose p {
+  @apply mb-6 leading-relaxed;
+}
+
+.prose pre,
+.prose code {
+  @apply bg-gray-100 dark:bg-gray-800 p-1 rounded;
+}
+
+.prose h2 {
+  @apply text-2xl font-semibold mt-8 mb-4;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold mt-6 mb-3;
+}
+
+.prose ul {
+  @apply mb-6;
+}
+
+.prose li {
+  @apply mb-2;
+}
