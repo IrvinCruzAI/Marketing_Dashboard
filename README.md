@@ -12,6 +12,11 @@ A [FutureCrafters](https://www.futurecrafters.ai) Flagship Project • Built by 
 
 ---
 
+![Marketing Dashboard - 6 AI-powered marketing generators with business context engine](assets/hero-screenshot.png)
+*Complete AI marketing operations system — Live demo at [ai-powered-marketing-4nlf.bolt.host](https://ai-powered-marketing-4nlf.bolt.host)*
+
+---
+
 ## TL;DR (30-Second Scan)
 
 **What:** 6 AI-powered marketing generators (SEO articles, email campaigns, social posts, lead magnets, content repurposing, images) with business context engine.
