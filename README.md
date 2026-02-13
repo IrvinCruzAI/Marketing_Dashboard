@@ -12,8 +12,11 @@ A [FutureCrafters](https://www.futurecrafters.ai) Flagship Project • Built by 
 
 ---
 
-![Marketing Dashboard - 6 AI-powered marketing generators with business context engine](assets/hero-screenshot.png)
-*Complete AI marketing operations system — Live demo at [ai-powered-marketing-4nlf.bolt.host](https://ai-powered-marketing-4nlf.bolt.host)*
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IrvinCruzAI/Marketing_Dashboard/main/assets/hero-screenshot.png" alt="Marketing Dashboard Platform" width="100%">
+</p>
+
+<p align="center"><em>Complete AI marketing operations system — Live demo at <a href="https://ai-powered-marketing-4nlf.bolt.host">ai-powered-marketing-4nlf.bolt.host</a></em></p>
 
 ---
 
