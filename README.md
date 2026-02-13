@@ -6,7 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 
-**[Try Live Demo](https://ai-powered-marketing-4nlf.bolt.host)** | **[For Recruiters](#portfolio-analysis)** | **[For Businesses](#for-businesses)**
+**[Try Live Demo](https://ai-powered-marketing-4nlf.bolt.host)** | **[For Businesses](#for-businesses)**
 
 A [FutureCrafters](https://www.futurecrafters.ai) Flagship Project • Built by [Irvin Cruz](https://irvincruz.com)
 
@@ -18,7 +18,7 @@ A [FutureCrafters](https://www.futurecrafters.ai) Flagship Project • Built by 
 
 **Why Different:** Most AI tools are generic prompt wrappers. This understands marketing operations—ICP targeting, brand consistency, multi-channel strategy.
 
-**For Recruiters:** Demonstrates marketing domain expertise + technical execution (AI Strategy Manager intersection).
+**Technical Showcase:** Demonstrates marketing domain expertise + technical execution (AI Strategy Manager intersection).
 
 **For Businesses:** Solo founders and agencies get consistent, on-brand content without hiring a team.
 
@@ -72,7 +72,7 @@ Centralized repository with status workflow (draft → review → published).
 
 ## Portfolio Analysis
 
-> **For Recruiters & Hiring Managers**
+## Technical Overview
 
 ### What This Project Demonstrates
 
@@ -297,7 +297,6 @@ Marketing Dashboard is part of FutureCrafters' AI-powered business systems portf
 
 **⭐ Star this repo if you find it useful!**
 
-**For recruiters:** Demonstrates AI Strategy Manager capabilities—marketing expertise + technical execution.
 
 **For businesses:** [Book a consultation](https://calendar.app.google/5of8AAhCW2FVV2Eg7) to discuss implementation.
 
@@ -305,3 +304,5 @@ Marketing Dashboard is part of FutureCrafters' AI-powered business systems portf
 
 *A FutureCrafters Flagship Project • Built by [Irvin Cruz](https://irvincruz.com) ☀️*  
 *Last Updated: February 2026*
+
+
