@@ -259,7 +259,6 @@ Marketing Dashboard is part of FutureCrafters' AI-powered business systems portf
 
 **More Projects:**
 - [NewsGen AI](https://github.com/IrvinCruzAI/AI_News_Generator) — News-to-article generator
-- Mission Control — Business intelligence dashboard
 - Rory — AI content engine with custom voice
 - Nexus — LinkedIn network intelligence
 - Sol — 5-agent AI operating system
