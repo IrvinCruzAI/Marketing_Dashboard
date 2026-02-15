@@ -6,6 +6,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 
+![Marketing Dashboard Screenshot](./assets/screenshot.png)
+
 **[Try Live Demo](https://ai-powered-marketing-4nlf.bolt.host)** | **[For Businesses](#for-businesses)**
 
 A [FutureCrafters](https://www.futurecrafters.ai) Flagship Project • Built by [Irvin Cruz](https://irvincruz.com)
