@@ -8,7 +8,7 @@
 
 **[Try Live Demo](https://ai-powered-marketing-4nlf.bolt.host)** | **[For Businesses](#for-businesses)**
 
-![Marketing Dashboard Screenshot](./assets/screenshot.png)
+![Screenshot](assets/screenshot.png)
 
 A [FutureCrafters](https://www.futurecrafters.ai) Flagship Project • Built by [Irvin Cruz](https://irvincruz.com)
 
